@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # git-literate
 # http://danielmcgraw.github.io/git-literate/
