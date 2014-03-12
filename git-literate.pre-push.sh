@@ -5,8 +5,8 @@
 #
 # Protect yourself from thoughtlessly pushing to remote repositories.
 
-randnum = `perl -e "print int rand(99999)"`
-word = `sed $number"q;d" /usr/share/dict/words`
+randnum=`perl -e "print int rand(99999)"`
+word=`sed $number"q;d" /usr/share/dict/words`
 
 read -p "To push to $1 type '$word': " < /dev/tty
 exit `[[ "$word" == "$REPLY" ]]`
