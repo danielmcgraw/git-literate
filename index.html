@@ -53,7 +53,7 @@
 			</header>
 			<section id="first-section">
 				<div class="content">
-					<h4> Protect yourself from accidentally pushing to a remote repository while learning new words. </h4>
+					<h4> Protect yourself from accidently pushing to a remote repository while learning new words. </h4>
 					<div class="row">
 						<img src="images/work.png">
 						<p> Do your work and make commits. When you're ready, push your commits to your remote repository. </p>
@@ -66,13 +66,13 @@
 						<img src="images/success.png">
 						<p> Enter the word correctly and your code gets pushed to the remote repository. </p>
 					</div>
-					<a href="#" class="button">Download Git Literate</a>					
+					<a href="https://github.com/danielmcgraw/git-literate" class="button">Download Git Literate</a>					
 				</div>
 			</section>
 			<section id="second-section">
 				<div class="content">
 					<a href="https://github.com/danielmcgraw/git-literate/issues" class="update"> Latest Update on Github</a>
-					<span>Mar 10, 2014 | <a href="#" class="update">Commit hashhashhashhashhashhashhashhash »</a></span>
+					<span>Mar 11, 2014 | <a href="#" class="update">Commit 1691f957419c79c6618c5c3b18012... »</a></span>
 					<a href="https://github.com/danielmcgraw/git-literate/issues" class="small-button">Contribute to Git Literate</a>					
 				</div>
 			</section>
@@ -93,19 +93,41 @@
 			<section id="fourth-section">
 				<div class="content">
 					<h3> Awesome script modifications </h3>
-					<h4> Limit verification to production </h4>	
-					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>
+					<h4> Limit verification to a specific remote </h4>	
+					<p>Although not used in the main script there is a second variable passed to the pre-push script when it is run. This is the url of the remote repository you are pushing to. If you only want to limit the use of Git Literate to one remote repository, production for instance, wrap the read and exit lines like so: </p>
+					<blockquote>
+						<span class="code">
+							if [[ "$2" == "git@your-remote.here:your-project.git" ]]
+							<br>
+							then
+							<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;read...
+							<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;exit...
+							<br>
+							fi
+						</span>
+					</blockquote>
 					<br>
-					<h4> Use multiple words </h4>	
-					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>
+					<h4> Have your own modification? </h4>	
+					<p>I'd love to see it and add it to the collection! <a href="https://github.com/danielmcgraw/git-literate/fork">Fork</a> the project, add your file (e.g. specific-url.pre-push.sh) to the modifications folder, and submit a <a href="https://github.com/danielmcgraw/git-literate/pulls">pull request</a>. </p>
 					<br>
-					<h4> Add a definition </h4>	
-					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>			
+					<h4> Cool modifications I'd like to see </h4>
+					<ul>
+						<li>Adding a definition before prompting you to enter the word</li>
+						<li>Multi-word check</li>
+						<li>Git-Math-Literate (simple math check)</li>			
+					</ul>
 				</div>
 			</section>
 			<div id="footer">
 				<div class="content">
-					<p> @ 2014 <a href="http://danielmcgraw.com">Daniel McGraw</a> </p>
+					<p> <!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: "FlipH"; display: inline-block;"><![endif]-->
+					<span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">
+					    ©
+					</span>
+					<!--[if lte IE 8]></span><![endif]-->
+					 2014 <a href="http://danielmcgraw.com">Daniel McGraw</a> </p>
 					<ul>
 						<li>
 							<a href="https://twitter.com/danielmcgraw" class="twitter">Twitter</a>

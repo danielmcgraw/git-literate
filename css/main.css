@@ -237,7 +237,7 @@ a span {
 	margin: -140px 0 -50px 0;
 }
 
-.content ul li a {
+.content ul li a, .content p a {
 	color: #9CE009;
 }
 
@@ -246,6 +246,12 @@ a span {
 	color: #FFF;
 	padding: 140px 0 0 0;
 	margin: -230px 0 50px 0;
+}
+
+blockquote {
+	font-weight:500;
+	border: solid #FF2E43 1px;
+	padding: 0 15px 0 15px;
 }
 
 .row {
