@@ -3,9 +3,9 @@
 # git-literate
 # http://danielmcgraw.github.io/git-literate/
 #
-# Protect yourself from thoughtlessly pushing to remote repositories.
+# Protect yourself from accidentally pushing to remote repositories
 #
-# Specific URL modification x`
+# Specific URL modification for git-literate
 
 randnum=`perl -e "print int rand(99999)"`
 word=`sed $randnum"q;d" /usr/share/dict/words`
