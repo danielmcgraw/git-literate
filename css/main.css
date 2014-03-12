@@ -95,9 +95,8 @@ header {
 	box-shadow: 0 2px 4px #444;
 }
 
-#header-wrapper { 
-	margin: 0 auto; 
-	width: 960px ; 
+#header-content { 
+	width: 1400px ; 
 }
 
 #logo { 
@@ -167,6 +166,18 @@ h4 {
 	position: relative;
 }
 
+#first-section h4 {
+	text-align: center;
+	color: #FFF;
+}
+
+#first-section .content img {
+	margin: 75px auto 50px auto;
+}
+
+#first-section .content a {
+	margin: -100px 0 0 0;
+}
 
 .content {
 	width: 960px;
@@ -222,6 +233,19 @@ a span {
 #third-section {
 	width: 100%;
 	color: #FFF;
+	padding: 140px 0 0 0;
+	margin: -140px 0 -50px 0;
+}
+
+.content ul li a {
+	color: #9CE009;
+}
+
+#fourth-section {
+	width: 100%;
+	color: #FFF;
+	padding: 140px 0 0 0;
+	margin: -230px 0 50px 0;
 }
 
 .row {
@@ -229,10 +253,19 @@ a span {
 	float: left;
 	position: relative;
 	width: 30%;
-	text-align:justify;
+	text-align: center;
 	word-wrap: normal;
-	padding: 0 10px 0 10px;
+	padding: 0 15px 0 15px;
 	height: 450px;
+	margin-top: -20px;
+}
+
+.row p {
+	height: 150px;
+}
+.row img {
+	display: block;
+	margin: auto;
 }
 
 .small-button {
@@ -278,7 +311,7 @@ hr {
 	border-width: 1px 0 0;
 	clear: both;
 	height: 0;
-	margin: 100px 0;
+	margin: 50px 0;
 }
 
 #footer {

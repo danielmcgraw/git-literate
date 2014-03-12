@@ -17,50 +17,54 @@
         <div id="content">
 			<header>
 				<div id="header-content">
-				<a id="logo" href="/">Git Literate</a>
-				<nav>
-					<ul>
-						<li>
-							<a href="#first-section">
-								Download
-								<br>
-								<span>
-									The Code
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#thrid-section">
-								Use
-								<br>
-								<span>
-									The Hook
-								</span>
-							</a>
-						</li>
-						<li>
-							<a href="#footer">
-								About
-								<br>
-								<span>
-									The Author
-								</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-				<div id="header-content">
+					<a id="logo" href="http://danielmcgraw.github.io/git-literate/">Git Literate</a>
+					<nav>
+						<ul>
+							<li>
+								<a href="#first-section">
+									Download
+									<br>
+									<span>
+										The Code
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#third-section">
+									Use
+									<br>
+									<span>
+										The Hook
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#fourth-section">
+									Awesome
+									<br>
+									<span>
+										Script Modifications
+									</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</header>
 			<section id="first-section">
 				<div class="content">
+					<h4> Protect yourself from accidentally pushing to a remote repository while learning new words. </h4>
 					<div class="row">
-						<p> Do your work and make commits. When you're ready push your commits to your remote repository. </p>
+						<img src="images/work.png">
+						<p> Do your work and make commits. When you're ready, push your commits to your remote repository. </p>
 					</div>
 					<div class="row">
+						<img src="images/prompt.png">
 						<p> You will be prompted to enter a random word before the commit will be pushed. </p>
 					</div>
 					<div class="row">
-						<p> Enter the word correctly and your code gets pushed to the remote. </p>
+						<img src="images/success.png">
+						<p> Enter the word correctly and your code gets pushed to the remote repository. </p>
 					</div>
 					<a href="#" class="button">Download Git Literate</a>					
 				</div>
@@ -75,11 +79,28 @@
 			<section id="third-section">
 				<div class="content">
 					<h3> How to use Git Literate </h3>
-					<p> Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words </p>
+					<ul>
+						<li><a href="https://github.com/danielmcgraw/git-literate">Download</a> git-literate.pre-push.sh.</li>
+						<li>Put the file in .git/hooks/ in your projects repository.</li>
+						<li>Rename the file to pre-push (no extension).</li>
+					</ul>
+					<p>
+						That's it! Try pushing to a remote repository and you will see a prompt to retype a random word. Type the word correctly and your commits are pushed to the remote repository. Get it wrong and the push is aborted. While you're at it, why not look the word up if you don't know it. It's like word-a-day toilet paper, but way cooler!
+					</p>
 					<hr>
+				</div>
+			</section>
+			<section id="fourth-section">
+				<div class="content">
 					<h3> Awesome script modifications </h3>
 					<h4> Limit verification to production </h4>	
-					<p>Words and words and words and words and words and words and words and words and words and words and words and words </p>				
+					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>
+					<br>
+					<h4> Use multiple words </h4>	
+					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>
+					<br>
+					<h4> Add a definition </h4>	
+					<p>Words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words and words</p>			
 				</div>
 			</section>
 			<div id="footer">
